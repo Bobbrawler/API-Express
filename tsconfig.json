@@ -1,12 +1,14 @@
 {
-  "compilerOptions": {
-    "outDir": "./dist", 
-    "rootDir": "./src", 
-    "target": "es6", 
-    "module": "commonjs", 
-    "strict": true, 
-    "esModuleInterop": true 
-  },
-  "include": ["src/**/*"], 
-  "exclude": ["node_modules"] 
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "target": "ES2020",
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"]
+    
 }
