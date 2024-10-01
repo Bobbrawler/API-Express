@@ -1,4 +1,4 @@
-/logs/
-/node_modules/
+logs/
+node_modules/
 package-lock.json
-/dist/
+dist/
